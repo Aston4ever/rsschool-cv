@@ -14,11 +14,23 @@ body {
     margin: 0 auto;
 }
 header {
+    width: 100%;
+    min-height: 100px;
     background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
 }
 main {
     display: flex;
 }
+
 .contact-info {
     background-color: yellow;
 }
