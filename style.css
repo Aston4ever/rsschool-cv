@@ -10,7 +10,6 @@ body {
 }
 .container {
     max-width: 1200px;
-    min-height: 100vh;
     margin: 0 auto;
 }
 header {
@@ -28,18 +27,27 @@ header {
     gap: 30px;
 }
 main {
+    min-height: 80vh;
     display: flex;
 }
 
 .contact-info {
     background-color: yellow;
     flex: 0 1 300px;
-
+    padding: 10px 20px;
+}
+.my-foto {
+    width: 100%;
 }
 .about-me {
     background-color: blueviolet;
     flex: 0 1 900px;
+    padding: 20px 30px;
 }
 footer {
     background-color: aquamarine;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
