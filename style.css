@@ -35,7 +35,8 @@ main {
 }
 
 .contact-info {
-    background-color: yellow;
+    background: rgb(147,147,147);
+    background: linear-gradient(0deg, rgba(147,147,147,1) 0%, rgba(193,193,204,1) 38%, rgba(255,255,255,1) 100%);
     flex: 0 1 300px;
     padding: 10px 20px;
 }
@@ -43,7 +44,8 @@ main {
     width: 100%;
 }
 .about-me {
-    background-color: blueviolet;
+    background: rgb(147,147,147);
+    background: linear-gradient(0deg, rgba(147,147,147,1) 0%, rgba(193,193,204,1) 38%, rgba(255,255,255,1) 100%);
     flex: 0 1 900px;
     padding: 20px 30px;
 }
@@ -55,7 +57,8 @@ h3  {
     margin-top: 20px;
 }
 footer {
-    background-color: aquamarine;
+    background: rgb(147,147,147);
+    background: linear-gradient(180deg, rgba(147,147,147,1) 0%, rgba(210,210,217,1) 100%);
     padding: 10px 40px;
     display: flex;
     justify-content: space-between;
@@ -64,4 +67,30 @@ footer {
 
 .footer-img {
     width: 100px;
+}
+.year {
+    font-family: "Cambria Math", sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.list-my-works {
+    list-style-type: square;
+}
+.courses-inner {
+    padding-left: 20px;
+}
+.list-courses-outer {
+    list-style-type: circle;
+}
+.list-courses-inner {
+    list-style-type: square;
+}
+.list-skills-outer {
+    list-style-type: square;
+}
+pre {
+    display: inline-block;
+    background-color: #9c9c9c;
+    font-family: monospace;
 }
