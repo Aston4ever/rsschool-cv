@@ -33,9 +33,12 @@ main {
 
 .contact-info {
     background-color: yellow;
+    flex: 0 1 300px;
+
 }
 .about-me {
     background-color: blueviolet;
+    flex: 0 1 900px;
 }
 footer {
     background-color: aquamarine;
