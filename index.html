@@ -12,15 +12,15 @@
 <body>
 <div class="container">
     <header>
-        <h1>Anton Starodubkin</h1>
+        <h1><span class="red-letter">Anton</span> Starodubkin</h1>
         <nav>
             <ul class="list">
-                <li class="list-item"><a href="#">About me</a></li>
-                <li class="list-item"><a href="#">Education</a></li>
-                <li class="list-item"><a href="#">Self-education</a></li>
-                <li class="list-item"><a href="#">Code example</a></li>
-                <li class="list-item"><a href="#">Languages</a></li>
-                <li class="list-item"><a href="#">My works</a></li>
+                <li class="list-item"><a href="#about">About me</a></li>
+                <li class="list-item"><a href="#education">Education</a></li>
+                <li class="list-item"><a href="#self-education">Self-education</a></li>
+                <li class="list-item"><a href="#code">Code example</a></li>
+                <li class="list-item"><a href="#langs">Languages</a></li>
+                <li class="list-item"><a href="#works">My works</a></li>
             </ul>
         </nav>
     </header>
@@ -29,13 +29,13 @@
             <img class="my-foto" src="my_photo.jpg" alt="#">
             <h3>Contacts</h3>
             <ul class="contacts">
-                <li class="list-contacts"><strong>Phone:</strong> +375257715924</li>
-                <li class="list-contacts"><strong>E-mail:</strong> aston4ever@gmail.com</li>
+                <li class="list-contacts"><strong>Phone:</strong> <a href="tel:+375257715924">+375257715924</a></li>
+                <li class="list-contacts"><strong>E-mail:</strong> <a href="mailto:aston4ever@gmail.com">aston4ever@gmail.com</a></li>
                 <li class="list-contacts"><strong>LinkedIn:</strong> <a href="linkedin.com/in/aston4ever">aston4ever</a></li>
-                <li class="list-contacts"><strong>GitHub:</strong> github.com/aston4ever</li>
+                <li class="list-contacts"><strong>GitHub:</strong><a href="github.com/aston4ever">Aston4ever</a> </li>
                 <li class="list-contacts"><strong>Discord:</strong> Aston#4166</li>
             </ul>
-            <h3>Languages</h3>
+            <h3 id="langs">Languages</h3>
             <ul class="languages">
                 <li class="list-languages"><strong>Russian</strong> – native</li>
                 <li class="list-languages"><strong>Belorussian</strong> - native</li>
@@ -44,7 +44,7 @@
             </ul>
         </section>
         <section class="about-me">
-            <h2>About me</h2>
+            <h2 id="about">About me</h2>
             <article>
                 <h3>Who am I...</h3>
                 <p>Junior Web Developer specializing in front end development(self-education). At this moment I am
@@ -55,12 +55,12 @@
                     games and develop them.</p>
             </article>
             <article>
-                <h3>Education</h3>
+                <h3 id="education">Education</h3>
                 <p>2007-2012</p>
                 <p>Teacher of foreign language and Computer Science - Mogilev State A. Kuleshov University, BY</p>
             </article>
             <article>
-                <h3>Self-education</h3>
+                <h3 id="self-education">Self-education</h3>
                 <ul class="courses">
                     <li class="list-courses-outer">Courses
                         <ul class="courses-inner">
@@ -81,7 +81,7 @@
                 </ul>
             </article>
             <article>
-                <h3>Skills</h3>
+                <h3 id="skills">Skills</h3>
                 <ul class="skills">
                     <li class="list-skills-outer">HTML/HTML5
                     </li>
@@ -92,13 +92,13 @@
                 </ul>
             </article>
             <article>
-                <h3>Code example</h3>
+                <h3 id="code">Code example</h3>
                 <pre><code>for (let i = 0; i &lt; 100; i++) {
     console.log(`I repeat this string ${i + 1} times`)
     }</code></pre>
             </article>
             <article>
-                <h3>My works</h3>
+                <h3 id="works">My works</h3>
                 <ul class="works">
                     <li class="list-my-works"><a href="https://store.steampowered.com/app/1831320/Rescue_Team_Power_Eaters/">Rescue Team Power Eaters</a></li>
                     <li class="list-my-works"><a href="https://store.steampowered.com/app/1579780/Brave_Deeds_of_Rescue_Team/">Brave Deeds of Rescue Team</a></li>
