@@ -4,6 +4,9 @@
     padding: 0;
     list-style-type: none;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-size: 16px;
     font-family: Inter, sans-serif;
@@ -15,13 +18,22 @@ body {
 header {
     width: 100%;
     min-height: 100px;
-    background-color: green;
+    padding: 0 30px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 37%, rgba(223,223,223,1) 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #333;
 }
 h1 {
-    padding-left: 30px;
+    text-shadow: 5px -3px 4px #777;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333333;
+}
+.red-letter {
+    color: red;
 }
 .list {
     display: flex;
@@ -73,7 +85,9 @@ footer {
     font-weight: bold;
     font-size: large;
 }
-
+.list-item a:link {
+    padding: 5px;
+}
 .list-my-works {
     list-style-type: square;
 }
@@ -93,4 +107,46 @@ pre {
     display: inline-block;
     background-color: #9c9c9c;
     font-family: monospace;
+}
+/*-------------------------------------*/
+a:link {
+    text-decoration: none;
+    color: #222222;
+}
+a:visited{
+    text-decoration: none;
+    color: #222222;
+}
+a:hover {
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+}
+a:active {
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+}
+/*------------------------------------*/
+nav a:link {
+    color: #222;
+    cursor: default;
+    font-weight: normal;
+}
+nav a:visited{
+    color: #222;
+    cursor: default;
+    font-weight: normal;
+}
+nav a:hover {
+    color: #FFF;
+    cursor: default;
+    background: #222222;
+    font-weight: normal;
+}
+nav a:active {
+    color: #FFF;
+    cursor: default;
+    background: #222222;
+    font-weight: normal;
 }
