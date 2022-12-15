@@ -72,6 +72,7 @@ footer {
     background: rgb(147,147,147);
     background: linear-gradient(180deg, rgba(147,147,147,1) 0%, rgba(210,210,217,1) 100%);
     padding: 10px 40px;
+    border-top: 1px solid #222222;
     display: flex;
     justify-content: space-between;
     align-items: center;
