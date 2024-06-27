@@ -18,7 +18,7 @@ I am a QA engeneer and trying something new. My stack now is:
 ___
 ## Code Example
 ```
-function sum(a, b) {
+function sum( a, b ) {
 return a + b;
 }
 ```
