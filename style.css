@@ -2,4 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #DDDDDD;
+    padding: 0 100px;
+}
+ul, ol{
+    list-style: none;
+}
+.logo {
+    width: 100px;
+}
+header {
+    display: flex;
+    min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    margin: 5px 40px;
 }
